@@ -20,13 +20,13 @@ public class Delta_Douglas_Oliveira {
       if  (delta>0)
       { x1 = (double)( (-B)+Math.sqrt (delta)/(2*A) );
         x2 = (double)( (-B) -Math.sqrt (delta)/ (2*A));
-      System.out.println("As ragitizes x1: " +x1+ " x2 : " +x2);}
+      System.out.println("As raizes x1: " +x1+ " x2 : " +x2);}
       
       else if (delta==0)
       { x1 =(double)( (-B) +Math.sqrt (delta) / (2*A) );
-      System.out.println ("As raizes são C2 : " +x1);
+      System.out.println ("As raizes são X1 : " +x1);
       }
-      else if (delta<A)
+      else if (delta<0)
       {System.out.println ("A equação não possui raizes reais");
       
       }
